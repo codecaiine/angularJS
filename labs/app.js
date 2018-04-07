@@ -9,7 +9,8 @@ app.controller('personCtrl', function($scope) {
         return $scope.firstName + " " + $scope.lastName;
     };
     
-    $scope.GetAge = function() {
+    $scope.getDob = function() {
+        
         return $scope.DoB;
     };
 });
